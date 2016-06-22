@@ -1,7 +1,7 @@
 /*rules for the plot target div.  These will be cascaded down to all plot elements according to css rules*/
 .jqplot-target {
     position: relative;
-    color: #666666;
+    color: #000000;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     font-size: 1em;
 /*    height: 300px;
@@ -188,8 +188,16 @@ div.jqplot-table-legend-swatch {
 .jqplot-title {
     top: 0px;
     left: 0px;
-    padding-bottom: 0.5em;
+    padding-bottom: 0.35em;
     font-size: 1.2em;
+    border: 1px;
+    border-style: solid;
+    margin-left: 9px;
+    width: 97%;
+    border-color: #dddddd;
+    background-color: #2780e3;
+    padding-top: 3px;
+    color: white;
 }
 
 table.jqplot-cursor-tooltip {
