@@ -67,9 +67,9 @@
             // don't trust that a stylesheet is present, set the position.
             var styles = {position:'absolute', top:'0px', left:'0px'};
 
-            if (this._plotWidth) {
-                styles['width'] = this._plotWidth+'px';
-            }
+            //if (this._plotWidth) {
+            //    styles['width'] = this._plotWidth+'px';
+            //}
             if (this.fontSize) {
                 styles['fontSize'] = this.fontSize;
             }
